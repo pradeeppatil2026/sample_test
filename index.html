@@ -1,0 +1,39 @@
+<html>
+<head>
+
+</head>
+<body>
+	<div align="center">
+	
+		<h1 id="quote"></h1>
+		
+	</div>
+
+	<script>
+	
+		var quoteArray = [
+		"Character is the result of two things: mental attitude and the way we spend our time",
+		"The greatest discovery of any generation is that a human being can alter his life by altering his attitude",
+		"A positive attitude may not solve all your problems, but it will annoy enough people to make it worth the effort.",
+		"Attitudes are contagious. Are yours worth catching?",
+		"Oh, my friend, it’s not what they take away from you that counts. It’s what you do with what you have left",
+		"Attitude is a little thing that makes a big difference",
+		"Happiness is an attitude. We either make ourselves miserable, or happy and strong. The amount of work is the same",
+		"Bondage is subjection to external influences and internal negative thoughts and attitudes.",
+		"If you don’t like something, change it. If you can’t change it, change your attitude",
+		"You must start with a positive attitude or you will surely end without one.",
+		"I have found that if you love life, life will love you back.",
+		"Some days there won’t be a song in your heart. Sing anyway.",
+		"It isn’t our position but our disposition which makes us happy.",
+		"Impossible is a word only to be found in the dictionary of fools.",
+		"Why not learn to enjoy the little things – there are so many of them."	
+		];
+		
+		var randomNumber = Math.floor((Math.random() * 15 )+1);
+		
+		document.getElementById("quote").innerHTML = quoteArray[randomNumber-1];
+
+	
+	</script>
+</body>
+</html>
